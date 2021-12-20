@@ -1,0 +1,7 @@
+{
+"__ECO__":"__PACKAGE__",
+"Type":"Action",
+"unitypackage":"PlayMaker/Ecosystem/PlayMaker Custom Actions/Application/TakeCameraScreenshot.unitypackage",
+"pingAssetPath":"Assets/PlayMaker Custom Actions/Application/TakeCameraScreenshot.cs",
+"keywords":" Saves http index php topic TakeCameraScreenshot take have FsmGameObject FsmInt Automatically current NOT RECOMMENDED save Setup Must precision the bits When used then buffer created enum FsmBool Result FsmString Reset Auto setDepth _16 depthSelect _24 getPicture Depth Texture2D TextureFormat RGB24 Render ReadPixels Rect Apply gameObject Camera targetTexture RenderTexture active Destroy useMypictures GetFolderPath Environment SpecialFolder MyPictures useDefaultFolder Application persistentDataPath string autoNumber Exists screenshotCount debugOn filename useJpeg EncodeToPNG screenShot EncodeToJPG CreateDirectory screenshotPath File WriteAllBytes bytes StoreFilePath screenshotFullPath getResolutions useCurrentRes currentResolution resWidth width resHeight Value Screen height"
+}

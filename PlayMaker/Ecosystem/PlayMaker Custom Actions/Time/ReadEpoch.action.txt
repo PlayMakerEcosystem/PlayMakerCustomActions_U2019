@@ -1,0 +1,7 @@
+{
+"__ECO__":"__PACKAGE__",
+"Type":"Action",
+"unitypackage":"PlayMaker/Ecosystem/PlayMaker Custom Actions/Time/ReadEpoch.unitypackage",
+"pingAssetPath":"Assets/PlayMaker Custom Actions/Time/ReadEpoch.cs",
+"keywords":" pragma disable http index php topic ReadEpoch Input Unix FsmInt Output Store timestamp Optional FsmString Convert local FsmBool Reset yyyy everyFrame ReadEpochTime CurrentTimeZone ToLocalTime DateTimeKind Utc unixDateTime AddSeconds getEpoch ToString format Value"
+}

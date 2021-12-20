@@ -1,0 +1,7 @@
+{
+"__ECO__":"__PACKAGE__",
+"Type":"Action",
+"unitypackage":"PlayMaker/Ecosystem/PlayMaker Custom Actions/GameObject/GetWorldDistance.unitypackage",
+"pingAssetPath":"Assets/PlayMaker Custom Actions/GameObject/GetWorldDistance.cs",
+"keywords":" Measures betweens Objects stores nOptionaly planar plane nExample ignore obtain GetWorldDistance work with FsmGameObject Store between FsmFloat The world axis ignored bool Reset everyFrame DoGetDistance OwnerOption GameObject Distance Vector3 transform position ignoreX ignoreY ignoreZ storeResult Value vector magnitude"
+}

@@ -1,0 +1,7 @@
+{
+"__ECO__":"__PACKAGE__",
+"Type":"Action",
+"unitypackage":"PlayMaker/Ecosystem/PlayMaker Custom Actions/Input/GetJoystickName.unitypackage",
+"pingAssetPath":"Assets/PlayMaker Custom Actions/Input/GetJoystickName.cs",
+"keywords":" Gets its GetJoystickName FsmInt Store that FsmString found send when the range Reset DoGetJoystick string Input GetJoystickNames Length notFoundEvent joystickName _names joystickIndex Value foundEvent"
+}

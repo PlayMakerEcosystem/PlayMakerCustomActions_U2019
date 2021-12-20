@@ -1,0 +1,7 @@
+{
+"__ECO__":"__PACKAGE__",
+"Type":"Action",
+"unitypackage":"PlayMaker/Ecosystem/PlayMaker Custom Actions/String/GetFilenameFromPath.unitypackage",
+"pingAssetPath":"Assets/PlayMaker Custom Actions/String/GetFilenameFromPath.cs",
+"keywords":" Text the GetFilenameFromPath FsmString Reset string Combine GetFileName GetFileNameWithoutExtension Value GetExtension _path"
+}

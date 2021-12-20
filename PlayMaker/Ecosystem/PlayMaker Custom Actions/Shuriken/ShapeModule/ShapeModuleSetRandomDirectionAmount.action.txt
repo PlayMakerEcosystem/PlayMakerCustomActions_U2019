@@ -1,0 +1,7 @@
+{
+"__ECO__":"__PACKAGE__",
+"Type":"Action",
+"unitypackage":"PlayMaker/Ecosystem/PlayMaker Custom Actions/Shuriken/ShapeModule/ShapeModuleSetRandomDirectionAmount.unitypackage",
+"pingAssetPath":"Assets/PlayMaker Custom Actions/ShapeModule/ShapeModuleSetRandomDirectionAmount.cs",
+"keywords":" Random Shuriken ShapeModuleSetRandomDirectionAmount with Randomize Direction FsmFloat Repeat every the active bool ShapeModule Reset gameObject _go ParticleSystem _ps shape everyFrame DoExecute _sm randomDirectionAmount Value"
+}

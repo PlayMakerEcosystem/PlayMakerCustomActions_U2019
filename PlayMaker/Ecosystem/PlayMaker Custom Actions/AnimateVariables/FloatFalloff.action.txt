@@ -1,0 +1,7 @@
+{
+"__ECO__":"__PACKAGE__",
+"Type":"Action",
+"unitypackage":"PlayMaker/Ecosystem/PlayMaker Custom Actions/AnimateVariables/FloatFalloff.unitypackage",
+"pingAssetPath":"Assets/PlayMaker Custom Actions/AnimateVariables/FloatFalloff.cs",
+"keywords":" based twitter runevision status https www youtube watch 5eoDoMj4E8E AnimateVariables lerp outside defined margin Typically camera movement follow player when getting close screen sides FloatFalloff Input Ranges FsmFloat Repeat every the active bool Reset everyFrame DoFallOff Mathf Pow result fallOffFactor Value"
+}

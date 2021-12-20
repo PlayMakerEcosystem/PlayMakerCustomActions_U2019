@@ -1,0 +1,7 @@
+{
+"__ECO__":"__PACKAGE__",
+"Type":"Action",
+"unitypackage":"PlayMaker/Ecosystem/PlayMaker Custom Actions/Files/CheckIfFileExists.unitypackage",
+"pingAssetPath":"Assets/PlayMaker Custom Actions/Files/CheckIfFileExists.cs",
+"keywords":" Files CheckIfFileExists FsmString Result the wasn found FsmBool Reset FileExistsEvent FileNotFoundEvent DoesFileExists bool File filePath fileExists Value _exists"
+}

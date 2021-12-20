@@ -1,0 +1,7 @@
+{
+"__ECO__":"__PACKAGE__",
+"Type":"Action",
+"unitypackage":"PlayMaker/Ecosystem/PlayMaker Custom Actions/Shuriken/ShapeModule/ShapeModuleSetAngle.unitypackage",
+"pingAssetPath":"Assets/PlayMaker Custom Actions/ShapeModule/ShapeModuleSetAngle.cs",
+"keywords":" Shuriken ShapeModuleSetAngle with FsmFloat Repeat every the active bool ShapeModule Reset 25f gameObject _go ParticleSystem _ps shape everyFrame DoExecute _sm angle Value"
+}

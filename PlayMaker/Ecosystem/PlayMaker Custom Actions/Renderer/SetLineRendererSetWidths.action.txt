@@ -1,0 +1,7 @@
+{
+"__ECO__":"__PACKAGE__",
+"Type":"Action",
+"unitypackage":"PlayMaker/Ecosystem/PlayMaker Custom Actions/Renderer/SetLineRendererSetWidths.unitypackage",
+"pingAssetPath":"Assets/PlayMaker Custom Actions/Renderer/SetLineRendererSetWidths.cs",
+"keywords":" line SetLineRendererSetWidths Setup with The FsmFloat Repeat every bool Reset everyFrame SetWidths gameObject LineRenderer _lr SetWidth startWidth endWidth Value endif"
+}

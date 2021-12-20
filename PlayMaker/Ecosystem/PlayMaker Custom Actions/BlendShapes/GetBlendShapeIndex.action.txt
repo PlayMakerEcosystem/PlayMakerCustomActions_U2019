@@ -1,0 +1,7 @@
+{
+"__ECO__":"__PACKAGE__",
+"Type":"Action",
+"unitypackage":"PlayMaker/Ecosystem/PlayMaker Custom Actions/BlendShapes/GetBlendShapeIndex.unitypackage",
+"pingAssetPath":"Assets/PlayMaker Custom Actions/BlendShapes/GetBlendShapeIndex.cs",
+"keywords":" BlendShapes Returns its Requires FsmString The BlendShape FsmInt Reset OwnerOption GameObject SkinnedMeshRenderer DoGetBlendShapeIndex _skr sharedMesh GetBlendShapeIndex blendShapeName Value"
+}

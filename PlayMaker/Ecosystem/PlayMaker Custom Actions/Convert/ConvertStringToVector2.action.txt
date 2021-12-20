@@ -1,0 +1,7 @@
+{
+"__ECO__":"__PACKAGE__",
+"Type":"Action",
+"unitypackage":"PlayMaker/Ecosystem/PlayMaker Custom Actions/Convert/ConvertStringToVector2.unitypackage",
+"pingAssetPath":"Assets/PlayMaker Custom Actions/Convert/ConvertStringToVector2.cs",
+"keywords":" Text RegularExpressions Convert Converts into flexible are placeholders escape special chars like parenthesis example ConvertStringToVector2 expected representing Vector3 FsmString FsmVector2 Repeats every performance will affected bool Reset everyFrame DoParsing string format could improved with some more inject the not there Replace floatregex fullregex Match source storeResult Vector2 Parse Groups Value"
+}

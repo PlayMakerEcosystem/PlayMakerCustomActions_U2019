@@ -3,8 +3,9 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -13,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   includeFolders:
   - 76fd2c683edd249a081735e27aee7bf0
-  - 14fd32e1609174798aec56d95e9af027
+  - 189fdd68991dd465aa520c4fd99a9e7b
   excludeFolders: []
   includeFiles: []
   excludeFiles:
@@ -27,15 +28,15 @@ MonoBehaviour:
   foldersToExclude: []
   filesToExclude: []
   author: Jean Fabre
-  type: 
+  type: Module
   version: 1.0
-  keyWords: 
+  keyWords: Clip Timeline
   packageName: Playable Clip
-  targetDirectory: /Users/jeanfabre/Documents/Work/Unity/PlayMaker/Ecosystem/Repositories/PlayMakerCustomActions_U2017/PlayMaker/Ecosystem/Custom
+  targetDirectory: /Users/jeanfabre/Documents/Work/PlayMaker/Ecosystem/Repositories/PlayMakerCustomActions_U2019/PlayMaker/Ecosystem/Custom
     Packages/Timeline
-  targetRepository: 5
+  targetRepository: 8
   categoryString: Timeline
-  targetPackageTextFile: /Users/jeanfabre/Documents/Work/Unity/PlayMaker/Ecosystem/Repositories/PlayMakerCustomActions_U2017/PlayMaker/Ecosystem/Custom
+  targetPackageTextFile: /Users/jeanfabre/Documents/Work/PlayMaker/Ecosystem/Repositories/PlayMakerCustomActions_U2019/PlayMaker/Ecosystem/Custom
     Packages/Timeline/Playable Clip.package.txt
   packagetypeselection:
   - ActionPackage
@@ -57,8 +58,8 @@ MonoBehaviour:
   - Asset Path
   - Menu
   Pingtypeselected: 1
-  uMinVersionSelected: 11
-  pmMinVersionSelected: 7
+  uMinVersionSelected: 0
+  pmMinVersionSelected: 0
   categoryList:
   - API
   - Analytics

@@ -1,0 +1,11 @@
+{
+"__ECO__":"__TEMPLATE__",
+"Author":"Jean Fabre",
+"Type":"Template",
+"Version":"1.0",
+"UnityMinimumVersion":"2019.4",
+"PlayMakerMinimumVersion":"1.9",
+"unitypackage":"/PlayMaker/Ecosystem/Custom Templates/Color/TemplateTest.unitypackage",
+"pingAssetPath":"Assets/PlayMaker Custom Templates/Color/TemplateTest.asset",
+"keywords":"test"
+}

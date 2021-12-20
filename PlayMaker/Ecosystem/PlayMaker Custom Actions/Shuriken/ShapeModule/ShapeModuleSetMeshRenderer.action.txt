@@ -1,0 +1,7 @@
+{
+"__ECO__":"__PACKAGE__",
+"Type":"Action",
+"unitypackage":"PlayMaker/Ecosystem/PlayMaker Custom Actions/Shuriken/ShapeModule/ShapeModuleSetMeshRenderer.unitypackage",
+"pingAssetPath":"Assets/PlayMaker Custom Actions/ShapeModule/ShapeModuleSetMeshRenderer.cs",
+"keywords":" Shuriken ShapeModuleSetMeshRenderer with ObjectType FsmObject Repeat every the active bool ShapeModule Reset gameObject _go ParticleSystem _ps shape everyFrame DoExecute _sm meshRenderer Value"
+}

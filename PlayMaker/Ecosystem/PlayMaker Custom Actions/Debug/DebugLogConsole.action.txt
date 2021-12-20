@@ -1,0 +1,7 @@
+{
+"__ECO__":"__PACKAGE__",
+"Type":"Action",
+"unitypackage":"PlayMaker/Ecosystem/PlayMaker Custom Actions/Debug/DebugLogConsole.unitypackage",
+"pingAssetPath":"Assets/PlayMaker Custom Actions/Debug/DebugLogConsole.cs",
+"keywords":" Source Sends message http index php topic DebugLogConsole print the window FsmString FsmBool Reset GetFullFsmLabel ActiveStateName string Info LogLevel text 6B8E23ff Path fullLabel pauseGame Value"
+}

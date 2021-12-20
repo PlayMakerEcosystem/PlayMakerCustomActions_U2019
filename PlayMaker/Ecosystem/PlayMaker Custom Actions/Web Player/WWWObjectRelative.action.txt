@@ -1,0 +1,7 @@
+{
+"__ECO__":"__PACKAGE__",
+"Type":"Action",
+"unitypackage":"PlayMaker/Ecosystem/PlayMaker Custom Actions/Web Player/WWWObjectRelative.unitypackage",
+"pingAssetPath":"Assets/PlayMaker Custom Actions/Web/WWWObjectRelative.cs",
+"keywords":" Linq pragma disable Web Player store variables See docs more details WWWObjectRelative folder FsmBool Results FsmTexture ObjectType Gets FsmObject message during FsmString How far download progressed FsmFloat Events when the data finished loading send there was file Application dataPath Reset pathIsRelative urlPrefix WWW progress Equals storeText text storeTexture texture storeAudio GetAudioClip Dispose wwwObject errorString Value isDone isError endif"
+}

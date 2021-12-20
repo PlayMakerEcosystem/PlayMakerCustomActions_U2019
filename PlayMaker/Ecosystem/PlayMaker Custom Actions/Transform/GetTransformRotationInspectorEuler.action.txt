@@ -1,0 +1,7 @@
+{
+"__ECO__":"__PACKAGE__",
+"Type":"Action",
+"unitypackage":"PlayMaker/Ecosystem/PlayMaker Custom Actions/Transform/GetTransformRotationInspectorEuler.unitypackage",
+"pingAssetPath":"Assets/PlayMaker Custom Actions/Transform/GetTransformRotationInspectorEuler.cs",
+"keywords":" Gets same way the inspector GetTransformRotationInspectorEuler Title Euler FsmVector3 FsmFloat bool Reset everyFrame DoGetRotation gameObject eulerAngles Dot transform Vector3 90f 270f 360f vector xAngle yAngle zAngle Value angle Mathf Round"
+}

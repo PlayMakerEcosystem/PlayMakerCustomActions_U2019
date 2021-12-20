@@ -1,0 +1,7 @@
+{
+"__ECO__":"__PACKAGE__",
+"Type":"Action",
+"unitypackage":"PlayMaker/Ecosystem/PlayMaker Custom Actions/Physics/SetSphereColliderCenter.unitypackage",
+"pingAssetPath":"Assets/PlayMaker Custom Actions/Physics/SetSphereColliderCenter.cs",
+"keywords":" Physics Sphere SetSphereColliderCenter ComponentAction SphereCollider apply add Optionally any with parameters FsmVector3 along axis leave unchanged Repeat every the active bool Reset FsmFloat everyFrame DoChange UpdateCache gameObject Vector3 vector Value cachedComponent center"
+}

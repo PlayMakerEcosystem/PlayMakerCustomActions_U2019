@@ -1,0 +1,7 @@
+{
+"__ECO__":"__PACKAGE__",
+"Type":"Action",
+"unitypackage":"PlayMaker/Ecosystem/PlayMaker Custom Actions/Array/ArraySendEventToGameObjects.unitypackage",
+"pingAssetPath":"Assets/PlayMaker Custom Actions/Array/ArraySendEventToGameObjects.cs",
+"keywords":" within ArraySendEventToGameObjects FsmArray The NOTE Events must marked Global send between FsmBool Reset DoSendEvent objectReferences sendEventToGO excludeSelf OwnerOption SpecifyGameObject FsmGameObject _go FsmEventTarget GameObject sendToChildren Value _eventTarget sendEvent"
+}

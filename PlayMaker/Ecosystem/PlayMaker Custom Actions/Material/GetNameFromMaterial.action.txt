@@ -1,0 +1,7 @@
+{
+"__ECO__":"__PACKAGE__",
+"Type":"Action",
+"unitypackage":"PlayMaker/Ecosystem/PlayMaker Custom Actions/Material/GetNameFromMaterial.unitypackage",
+"pingAssetPath":"Assets/PlayMaker Custom Actions/Material/GetNameFromMaterial.cs",
+"keywords":" Gets GetNameFromMaterial Alternatively specify instead GameObject Index FsmMaterial pointer appended removed will bool the FsmString Reset trimName EndsWith Instance Substring Length materialName material Value"
+}

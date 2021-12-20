@@ -1,0 +1,7 @@
+{
+"__ECO__":"__PACKAGE__",
+"Type":"Action",
+"unitypackage":"PlayMaker/Ecosystem/PlayMaker Custom Actions/Physics/GetRaycastHitInfoExtras.unitypackage",
+"pingAssetPath":"Assets/PlayMaker Custom Actions/Physics/GetRaycastHitInfoExtras.cs",
+"keywords":" Physics Gets last Raycast store variables GetRaycastHitInfoExtras barycentric FsmVector3 barycentricCoordinate FsmInt that was hit FsmMaterial secondary texture lightmap coordinate the impact point FsmVector2 Repeat every bool Reset textureCoord textureCoord2 lightmapCoord TriangleMaterial Value RaycastHitInfo everyFrame GetRaycastInfo GetTriangleIndexMaterial There are stored triangle triangleIndex subMeshCount sharedMesh GetTriangles Length limit numIndices meshCollider MeshRenderer sharedMaterials submesh"
+}

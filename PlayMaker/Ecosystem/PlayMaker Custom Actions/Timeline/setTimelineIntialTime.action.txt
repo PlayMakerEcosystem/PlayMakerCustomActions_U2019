@@ -1,0 +1,7 @@
+{
+"__ECO__":"__PACKAGE__",
+"Type":"Action",
+"unitypackage":"PlayMaker/Ecosystem/PlayMaker Custom Actions/Timeline/setTimelineIntialTime.unitypackage",
+"pingAssetPath":"Assets/PlayMaker Custom Actions/Timeline/setTimelineIntialTime.cs",
+"keywords":" Playables inital which should setTimelineIntialTime hold components the current intial FsmFloat box preform every FsmBool Reset PlayableDirector everyFrame timelineAction gameObject timeline initialTime time Value"
+}

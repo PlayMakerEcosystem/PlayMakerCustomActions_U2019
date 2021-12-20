@@ -1,0 +1,7 @@
+{
+"__ECO__":"__PACKAGE__",
+"Type":"Action",
+"unitypackage":"PlayMaker/Ecosystem/PlayMaker Custom Actions/Math/FsmFloatAdd.unitypackage",
+"pingAssetPath":"Assets/PlayMaker Custom Actions/Math/FsmFloatAdd.cs",
+"keywords":" Math Adds another Optional FsmString bool PlayMakerFSM Reset everyFrame DoSetFsmFloatAdd gameObject goLastFrame the changed ActionHelpers GetGameObjectFsm fsmName FsmVariables GetFsmFloat variableName perSecond fsmFloat add Value deltaTime"
+}

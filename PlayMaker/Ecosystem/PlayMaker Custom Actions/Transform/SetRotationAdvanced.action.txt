@@ -1,0 +1,7 @@
+{
+"__ECO__":"__PACKAGE__",
+"Type":"Action",
+"unitypackage":"PlayMaker/Ecosystem/PlayMaker Custom Actions/Transform/SetRotationAdvanced.unitypackage",
+"pingAssetPath":"Assets/PlayMaker Custom Actions/Transform/SetRotationAdvanced.cs",
+"keywords":" script dependancies Assets Custom __Internal version Sets leave any unchanged features allows selection SetRotationAdvanced rotate FsmQuaternion Title euler stored below FsmVector3 local Repeat every bool Reset dropdown with selected FsmFloat World PLAYMAKER_1_8_5_OR_NEWER endif updateType PlayMakerActionsUtils EveryFrameUpdateSelector everyFrame DoSetRotation gameObject Individual can build steps Vector3 quaternion vector current the axis xAngle yAngle zAngle Value apply Self localEulerAngles transform eulerAngles rotation"
+}

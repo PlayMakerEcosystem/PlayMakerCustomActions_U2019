@@ -1,0 +1,11 @@
+{
+"__ECO__":"__PACKAGE__",
+"Author":"Jean Fabre",
+"Type":"Addon",
+"Version":"1.1",
+"UnityMinimumVersion":"2018.2",
+"PlayMakerMinimumVersion":"1.9",
+"unitypackage":"/PlayMaker/Ecosystem/Custom Packages/UnnyNet/UnnyNet.unitypackage",
+"pingAssetPath":"Assets/PlayMaker UnnyNet/README.md",
+"keywords":"Leaderboard chat game saas"
+}

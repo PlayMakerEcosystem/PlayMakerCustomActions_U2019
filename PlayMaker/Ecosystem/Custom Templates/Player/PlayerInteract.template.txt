@@ -1,0 +1,11 @@
+{
+"__ECO__":"__TEMPLATE__",
+"Author":"Stephen Scott Day",
+"Type":"Template",
+"Version":"1.0",
+"UnityMinimumVersion":"2019.4",
+"PlayMakerMinimumVersion":"1.9",
+"unitypackage":"/PlayMaker/Ecosystem/Custom Templates/Player/PlayerInteract.unitypackage",
+"pingAssetPath":"Assets/PlayMaker Custom Templates/FirstPerson/PlayerInteract.asset",
+"keywords":"player interact click use"
+}

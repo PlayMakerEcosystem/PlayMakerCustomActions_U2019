@@ -1,0 +1,7 @@
+{
+"__ECO__":"__PACKAGE__",
+"Type":"Action",
+"unitypackage":"PlayMaker/Ecosystem/PlayMaker Custom Actions/Logic/FloatWithinRange.unitypackage",
+"pingAssetPath":"Assets/PlayMaker Custom Actions/Logic/FloatWithinRange.cs",
+"keywords":" Author Stephen Scott Day Logic Tests changed send change store that can used other operations FloatWithinRange minimum maximum FsmFloat FsmBool Repeat every the active bool Reset everyFrame UpdateResult storeResult minRange floatVariable maxRange Value ssd"
+}

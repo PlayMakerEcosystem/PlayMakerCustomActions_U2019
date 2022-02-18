@@ -1,0 +1,12 @@
+{
+"__ECO__":"__TEMPLATE__",
+"Author":"Stephen Scott Day",
+"Type":"Template",
+"Version":"1.0",
+"UnityMinimumVersion":"2019.4",
+"PlayMakerMinimumVersion":"1.9",
+"unitypackage":"/PlayMaker/Ecosystem/Custom Templates/FirstPerson/FirstPersonLook.unitypackage",
+"pingAssetPath":"Assets/PlayMaker Custom Templates/FirstPerson/FirstPersonLook.asset",
+"YoutubeVideos":["https://www.youtube.com/watch?v=9BtAz62DoBc&t=33s"],
+"keywords":"first person look controller mouse"
+}

@@ -1,0 +1,7 @@
+{
+"__ECO__":"__PACKAGE__",
+"Type":"Action",
+"unitypackage":"PlayMaker/Ecosystem/PlayMaker Custom Actions/Array/ArrayGetMinMax.unitypackage",
+"pingAssetPath":"Assets/PlayMaker Custom Actions/Array/ArrayGetMinMax.cs",
+"keywords":" Author magnitude uses surface bounding box volume lenght ArrayGetMinMax Rect Vector2 Vector3 GameObject FsmArray MatchElementType Maximum within that arrayList FsmInt Repeat every active bool Events trigger the Reset indexOutOfRange everyFrame DoGetMinMax NegativeInfinity max maximumValueIndex maxIndex string ErrorCheck maximumValue can not processed minimum DoFindMinimumValue supportedTypes Contains PositiveInfinity GetFloatFromObject _obj _targetType min _val minimumValueIndex PlayMakerUtils ApplyValueToFsmVar minimumValue Values minIndex Stephen Scott Day was here NOV first actually useful custom"
+}

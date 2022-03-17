@@ -3,8 +3,8 @@
 /*--- __ECO__ __PLAYMAKER__ __ACTION__ ---*/
 // Keywords: merge combine copy add range addrange
 
+using System;
 using System.Linq;
-using UnityEditor;
 
 namespace HutongGames.PlayMaker.Actions
 {
@@ -42,7 +42,7 @@ namespace HutongGames.PlayMaker.Actions
 
 			foreach (FsmArray fsmArray in arrays)
 			{
-				ArrayUtility.AddRange(ref _source,fsmArray.Values);
+				AppendArray(fsmArray);
 			}
 			
 			result.Values = _source;
@@ -50,6 +50,24 @@ namespace HutongGames.PlayMaker.Actions
 			
 			Finish();
 		}
+
+		void AppendArray(FsmArray arrayToAdd)
+		{
+			int count = arrayToAdd.Length;
+			if (count>0)
+			{
+				
+				Array.Resize(ref _source,_source.Length+count);
+
+				foreach (object value in arrayToAdd.Values)
+				{
+					_source[_source.Length-count] =value;
+					count--;
+				}
+			}
+		}
+		
+		
 	}
 }
 

@@ -1,11 +1,13 @@
 {
 "__ECO__":"__PACKAGE__",
 "Author":"Gokhan Ergin",
-"Type":"Actions",
-"Version":"1.0.2",
-"UnityMinimumVersion":"5.0",
-"PlayMakerMinimumVersion":"1.8.0",
+"Type":"Custom actions",
+"Version":"1.1",
+"UnityMinimumVersion":"2019.4",
+"PlayMakerMinimumVersion":"1.9",
 "unitypackage":"/PlayMaker/Ecosystem/Custom Packages/Pooler/Pooler.unitypackage",
+"pingAssetPath":"Assets/PlayMaker Custom Actions/Pooler/PoolerPool.cs",
+"YoutubeVideos":["https://www.youtube.com/watch?v=MDi4_8Slh0Q"],
 "WebLink":"http://hutonggames.com/playmakerforum/index.php?topic=12941.0",
-"keywords":"pool, pooling, pooler"
+"keywords":"pool pooling pooler Pooler"
 }

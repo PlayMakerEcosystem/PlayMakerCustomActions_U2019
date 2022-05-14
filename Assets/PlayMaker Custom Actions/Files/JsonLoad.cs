@@ -88,32 +88,50 @@ namespace HutongGames.PlayMaker.Actions
 
                 if (loadData.savedFloat.Length > 0)
                 {
-                    floatVar = loadData.savedFloat;
+                    for (int i = 0; i < loadData.savedFloat.Length; i++)
+                    {
+                        floatVar[i].Value = loadData.savedFloat[i].Value;
+                    }
                 }
 
                 if (loadData.savedInt.Length > 0)
                 {
-                    intVar = loadData.savedInt;
+                    for (int i = 0; i < loadData.savedInt.Length; i++)
+                    {
+                        intVar[i].Value = loadData.savedInt[i].Value;
+                    }
                 }
 
                 if (loadData.savedString.Length > 0)
                 {
-                    stringVar = loadData.savedString;
+                    for (int i = 0; i < loadData.savedString.Length; i++)
+                    {
+                        stringVar[i].Value = loadData.savedString[i].Value;
+                    }
                 }
 
                 if (loadData.savedBool.Length > 0)
                 {
-                    boolVar = loadData.savedBool;
+                    for (int i = 0; i < loadData.savedBool.Length; i++)
+                    {
+                        boolVar[i].Value = loadData.savedBool[i].Value;
+                    }
                 }
 
                 if (loadData.savedVector2s.Length > 0)
                 {
-                    vector2Var = loadData.savedVector2s;
+                    for (int i = 0; i < loadData.savedVector2s.Length; i++)
+                    {
+                        vector2Var[i].Value = loadData.savedVector2s[i].Value;
+                    }
                 }
 
                 if (loadData.savedVector3s.Length > 0)
                 {
-                    vector3Var = loadData.savedVector3s;
+                    for (int i = 0; i < loadData.savedVector3s.Length; i++)
+                    {
+                        vector3Var[i].Value = loadData.savedVector3s[i].Value;
+                    }
                 }
 
                 if (loadData.savedArray.Length > 0)

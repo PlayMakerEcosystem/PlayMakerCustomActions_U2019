@@ -27,14 +27,23 @@ MonoBehaviour:
         x: 64
         y: 112
         width: 100
-        height: 32
+        height: 48
       isBreakpoint: 0
       isSequence: 0
       hideUnused: 0
       transitions:
       - fsmEvent:
-          name: FINISHED
-          isSystemEvent: 1
+          name: true
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: On
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: false
+          isSystemEvent: 0
           isGlobal: 0
         toState: Off
         linkStyle: 0
@@ -44,12 +53,14 @@ MonoBehaviour:
       actionData:
         actionNames:
         - HutongGames.PlayMaker.Actions.Comment
+        - HutongGames.PlayMaker.Actions.BoolTest
         customNames:
         - 
-        actionEnabled: 01
-        actionIsOpen: 01
-        actionStartIndex: 00000000
-        actionHashCodes: 78c53001
+        - 
+        actionEnabled: 0101
+        actionIsOpen: 0101
+        actionStartIndex: 0000000001000000
+        actionHashCodes: 78c53001a4c8bf00
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
@@ -66,7 +77,13 @@ MonoBehaviour:
         fsmEnumParams: []
         fsmFloatParams: []
         fsmIntParams: []
-        fsmBoolParams: []
+        fsmBoolParams:
+        - useVariable: 1
+          name: defaultOn
+          tooltip: 
+          showInInspector: 1
+          networkSync: 0
+          value: 0
         fsmVector2Params: []
         fsmVector3Params: []
         fsmColorParams: []
@@ -74,23 +91,29 @@ MonoBehaviour:
         fsmQuaternionParams: []
         stringParams:
         - Take care of any initialization here.
-        byteData: 
+        - true
+        - false
+        byteData: 00
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 03000000
+        paramDataType: 0300000011000000170000001700000001000000
         paramName:
         - comment
-        paramDataPos: 00000000
-        paramByteDataSize: 00000000
+        - boolVariable
+        - isTrue
+        - isFalse
+        - everyFrame
+        paramDataPos: 0000000000000000010000000200000000000000
+        paramByteDataSize: 0000000000000000000000000000000001000000
     - name: Off
       description: 
       colorIndex: 6
       position:
         serializedVersion: 2
         x: 64
-        y: 160
+        y: 192
         width: 109
         height: 32
       isBreakpoint: 0
@@ -170,7 +193,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 64
-        y: 208
+        y: 256
         width: 100
         height: 32
       isBreakpoint: 0
@@ -240,13 +263,22 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 304
-        y: 160
+        y: 192
         width: 109
-        height: 32
+        height: 48
       isBreakpoint: 0
       isSequence: 0
       hideUnused: 0
       transitions:
+      - fsmEvent:
+          name: next
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: blink on
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
       - fsmEvent:
           name: interactEvent
           isSystemEvent: 0
@@ -259,15 +291,27 @@ MonoBehaviour:
       actionData:
         actionNames:
         - HutongGames.PlayMaker.Actions.SetLightIntensity
+        - HutongGames.PlayMaker.Actions.SetLightColor
+        - HutongGames.PlayMaker.Actions.BoolTest
         customNames:
         - 
-        actionEnabled: 01
-        actionIsOpen: 01
-        actionStartIndex: 00000000
-        actionHashCodes: 32d59402
+        - 
+        - 
+        actionEnabled: 010101
+        actionIsOpen: 010101
+        actionStartIndex: 000000000300000006000000
+        actionHashCodes: 32d59402be71c903a4c8bf00
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
+        - ownerOption: 1
+          gameObject:
+            useVariable: 1
+            name: UnityLight
+            tooltip: 
+            showInInspector: 1
+            networkSync: 0
+            value: {fileID: 0}
         - ownerOption: 1
           gameObject:
             useVariable: 1
@@ -295,32 +339,53 @@ MonoBehaviour:
           networkSync: 0
           value: 1
         fsmIntParams: []
-        fsmBoolParams: []
+        fsmBoolParams:
+        - useVariable: 1
+          name: blink
+          tooltip: 
+          showInInspector: 1
+          networkSync: 0
+          value: 0
         fsmVector2Params: []
         fsmVector3Params: []
-        fsmColorParams: []
+        fsmColorParams:
+        - useVariable: 1
+          name: LightColor
+          tooltip: 
+          showInInspector: 1
+          networkSync: 0
+          value: {r: 1, g: 0.89260596, b: 0.5518868, a: 1}
         fsmRectParams: []
         fsmQuaternionParams: []
-        stringParams: []
-        byteData: 00
+        stringParams:
+        - next
+        - 
+        byteData: 000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 140000000f00000001000000
+        paramDataType: 140000000f0000000100000014000000190000000100000011000000170000001700000001000000
         paramName:
         - gameObject
         - lightIntensity
         - everyFrame
-        paramDataPos: 000000000000000000000000
-        paramByteDataSize: 000000000000000001000000
+        - gameObject
+        - lightColor
+        - everyFrame
+        - boolVariable
+        - isTrue
+        - isFalse
+        - everyFrame
+        paramDataPos: 00000000000000000000000001000000000000000100000000000000000000000100000002000000
+        paramByteDataSize: 00000000000000000100000000000000000000000100000000000000000000000000000001000000
     - name: buffer 2
       description: 
       colorIndex: 4
       position:
         serializedVersion: 2
         x: 304
-        y: 208
+        y: 256
         width: 100
         height: 32
       isBreakpoint: 0
@@ -384,6 +449,208 @@ MonoBehaviour:
         - sendEvent
         paramDataPos: 0000000001000000
         paramByteDataSize: 0000000000000000
+    - name: blink on
+      description: 
+      colorIndex: 3
+      position:
+        serializedVersion: 2
+        x: 496
+        y: 192
+        width: 109
+        height: 48
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: interactEvent
+          isSystemEvent: 0
+          isGlobal: 1
+        toState: buffer 2
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: next
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: blink off
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.SetLightIntensity
+        - HutongGames.PlayMaker.Actions.Wait
+        customNames:
+        - 
+        - 
+        actionEnabled: 0101
+        actionIsOpen: 0101
+        actionStartIndex: 0000000003000000
+        actionHashCodes: 32d5940248c01101
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 1
+          gameObject:
+            useVariable: 1
+            name: UnityLight
+            tooltip: 
+            showInInspector: 1
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 1
+          name: LightIntensity_ON
+          tooltip: Default Unity Point intensity = 1.
+          showInInspector: 1
+          networkSync: 0
+          value: 1
+        - useVariable: 1
+          name: onInterval
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams:
+        - next
+        byteData: 0000
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 140000000f000000010000000f0000001700000001000000
+        paramName:
+        - gameObject
+        - lightIntensity
+        - everyFrame
+        - time
+        - finishEvent
+        - realTime
+        paramDataPos: 000000000000000000000000010000000000000001000000
+        paramByteDataSize: 000000000000000001000000000000000000000001000000
+    - name: blink off
+      description: 
+      colorIndex: 6
+      position:
+        serializedVersion: 2
+        x: 496
+        y: 256
+        width: 109
+        height: 48
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: next
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: blink on
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: interactEvent
+          isSystemEvent: 0
+          isGlobal: 1
+        toState: buffer 2
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.SetLightIntensity
+        - HutongGames.PlayMaker.Actions.Wait
+        customNames:
+        - 
+        - 
+        actionEnabled: 0101
+        actionIsOpen: 0101
+        actionStartIndex: 0000000003000000
+        actionHashCodes: 32d5940248c01101
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 1
+          gameObject:
+            useVariable: 1
+            name: UnityLight
+            tooltip: 
+            showInInspector: 1
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: offInterval
+          tooltip: 
+          showInInspector: 1
+          networkSync: 0
+          value: 0
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams:
+        - next
+        byteData: 0000
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 140000000f000000010000000f0000001700000001000000
+        paramName:
+        - gameObject
+        - lightIntensity
+        - everyFrame
+        - time
+        - finishEvent
+        - realTime
+        paramDataPos: 000000000000000000000000010000000000000001000000
+        paramByteDataSize: 000000000000000001000000000000000000000001000000
     events:
     - name: FINISHED
       isSystemEvent: 1
@@ -394,9 +661,21 @@ MonoBehaviour:
     - name: next
       isSystemEvent: 0
       isGlobal: 0
+    - name: true
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: false
+      isSystemEvent: 0
+      isGlobal: 0
     globalTransitions: []
     variables:
       floatVariables:
+      - useVariable: 1
+        name: LightIntensity_OFF
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: 0
       - useVariable: 1
         name: LightIntensity_ON
         tooltip: Default Unity Point intensity = 1.
@@ -404,19 +683,31 @@ MonoBehaviour:
         networkSync: 0
         value: 1
       - useVariable: 1
-        name: LightRange
-        tooltip: Default Unity Point range = 10.
+        name: offInterval
+        tooltip: 
         showInInspector: 1
         networkSync: 0
-        value: 10
+        value: 0.5
       - useVariable: 1
-        name: LightIntensity_OFF
+        name: onInterval
         tooltip: 
-        showInInspector: 0
+        showInInspector: 1
+        networkSync: 0
+        value: 0.5
+      intVariables: []
+      boolVariables:
+      - useVariable: 1
+        name: blink
+        tooltip: 
+        showInInspector: 1
         networkSync: 0
         value: 0
-      intVariables: []
-      boolVariables: []
+      - useVariable: 1
+        name: defaultOn
+        tooltip: 
+        showInInspector: 1
+        networkSync: 0
+        value: 0
       stringVariables: []
       vector2Variables: []
       vector3Variables: []
@@ -443,11 +734,16 @@ MonoBehaviour:
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 0000000000000000000000000000000000000000
+      variableCategoryIDs: 0000000000000000000000000000000000000000000000000000000000000000
     description: 'The Light template has 4 main values: The light gameObject, which
-      you must provide. The LightRange, which by default is 10. The LightIntensity_ON,
-      which is how brigh the light is when it''s on. And LightColor, which is the
-      color of the light. '
+      you must provide. The LightIntensity_ON, which is how brigh the light is when
+      it''s on. And LightColor, which is the color of the light.
+
+
+      Additional
+      inputs are: defaultOn, which starts the light at the on state when set to true.
+      Blink, which makes the light blink if set to true. The on and off interval
+      values, which dictate how long their respective blink states last for. '
     docUrl: 
     showStateLabel: 0
     maxLoopCount: 0

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 1219815696, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
   m_Name: DoorStandardRotate
   m_EditorClassIdentifier: 
-  category: 
+  category: Objects / Door
   fsm:
     dataVersion: 2
     usedInTemplate: {fileID: 11400000}
@@ -1140,7 +1140,10 @@ MonoBehaviour:
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
     preprocessed: 0
-    ExposedEvents: []
+    ExposedEvents:
+    - name: interactEvent
+      isSystemEvent: 0
+      isGlobal: 1
     OutputEvents: []
     RestartOnEnable: 1
     ResetVariablesOnEnable: 0

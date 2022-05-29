@@ -138,8 +138,7 @@ namespace HutongGames.PlayMaker.Actions
                 {
                     for (int i = 0; i < loadData.savedArray.Length; i++)
                     {
-                        arrayVar[i].Values = loadData.savedArray[i].Values.Clone() as object[];
-                        arrayVar[i].Resize(arrayVar[i].Length - 1);
+                        arrayVar[i].Values = loadData.savedArray[i].Values;
                     }
                 }
             }

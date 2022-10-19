@@ -6,5 +6,6 @@
 "UnityMinimumVersion":"2019.4",
 "PlayMakerMinimumVersion":"1.9",
 "unitypackage":"/PlayMaker/Ecosystem/Custom Packages/Text Mesh Pro/Text Mesh Pro 2022.unitypackage",
+"pingAssetPath":"Assets/PlayMaker Custom Actions/TMP 2022/TextMeshPro_Playmaker-master/README.md",
 "keywords":"tmp text mesh pro ui gui"
 }

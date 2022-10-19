@@ -30,13 +30,13 @@ MonoBehaviour:
   type: Custom actions
   version: 1.0
   keyWords: tmp text mesh pro ui gui
-  packageName: Text Mesh Pro 2022
+  packageName: TextMeshPro2022
   targetDirectory: C:/Users/Stephen/Documents/GitHub/PlayMakerCustomActions_U2019/PlayMaker/Ecosystem/Custom
     Packages/Text Mesh Pro
   targetRepository: 8
   categoryString: Text Mesh Pro
   targetPackageTextFile: C:/Users/Stephen/Documents/GitHub/PlayMakerCustomActions_U2019/PlayMaker/Ecosystem/Custom
-    Packages/Text Mesh Pro/Text Mesh Pro 2022.package.txt
+    Packages/Text Mesh Pro/TextMeshPro2022.package.txt
   packagetypeselection:
   - ActionPackage
   - SamplePackage

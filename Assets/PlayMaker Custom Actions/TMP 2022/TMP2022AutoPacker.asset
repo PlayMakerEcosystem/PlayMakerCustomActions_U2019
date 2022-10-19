@@ -134,7 +134,7 @@ MonoBehaviour:
   - WebCam
   - uGui
   categorySelected: 0
-  assetPath: {fileID: 4900000, guid: c521667bfc8dc93469ac0539bebfc343, type: 3}
+  assetPath: {fileID: 11500000, guid: ca6df219f398dc34397fd5be83353d3a, type: 3}
   pingMenu: {fileID: 0}
   fileExistsCheck: 1
   expandedList: 0

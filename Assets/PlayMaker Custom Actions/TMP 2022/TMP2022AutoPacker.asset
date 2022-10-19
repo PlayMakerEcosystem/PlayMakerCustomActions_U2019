@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: TMP2022AutoPacker
   m_EditorClassIdentifier: 
   includeFolders:
-  - c728193186bd1664e8dd6863c1fd6779
+  - acfa54395e90062438462a890f106bf5
   excludeFolders: []
   includeFiles: []
   excludeFiles:
@@ -27,7 +27,7 @@ MonoBehaviour:
   foldersToExclude: []
   filesToExclude: []
   author: Eric Vander Wal
-  type: Action package
+  type: Custom actions
   version: 1.0
   keyWords: tmp text mesh pro ui gui
   packageName: Text Mesh Pro 2022

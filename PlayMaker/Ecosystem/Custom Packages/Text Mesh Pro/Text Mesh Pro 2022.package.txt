@@ -1,7 +1,7 @@
 {
 "__ECO__":"__PACKAGE__",
 "Author":"Eric Vander Wal",
-"Type":"Action package",
+"Type":"Custom actions",
 "Version":"1.0",
 "UnityMinimumVersion":"2019.4",
 "PlayMakerMinimumVersion":"1.9",

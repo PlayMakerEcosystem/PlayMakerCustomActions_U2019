@@ -2,7 +2,7 @@
 // License: Attribution 4.0 International(CC BY 4.0)
 // Author: Romi Fauzi
 /*--- __ECO__ __PLAYMAKER__ __ACTION__ ---*/
-// Keywords: Load Save Json Disk
+// Keywords: Load Save Json Disk load save json disk
 
 using UnityEngine;
 using System.IO;
@@ -71,13 +71,7 @@ namespace HutongGames.PlayMaker.Actions
             saveData.savedVector2s = vector2Var;
             saveData.savedVector3s = vector3Var;
 
-            saveData.savedArray = new FsmArray[arrayVar.Length];
-
-            for (int i = 0; i < saveData.savedArray.Length; i++)
-            {
-                saveData.savedArray[i] = arrayVar[i].Clone() as FsmArray;
-                saveData.savedArray[i].Resize(saveData.savedArray[i].Length + 1);
-            }
+            saveData.savedArray = arrayVar;
 
             string jsonString = JsonUtility.ToJson(saveData);
             string jsonToSave = "";

@@ -1,0 +1,11 @@
+{
+"__ECO__":"__PACKAGE__",
+"Author":"Eric Vander Wal",
+"Type":"Custom actions",
+"Version":"1.0",
+"UnityMinimumVersion":"2019.4",
+"PlayMakerMinimumVersion":"1.9",
+"unitypackage":"/PlayMaker/Ecosystem/Custom Packages/Text Mesh Pro/TextMeshPro2022.unitypackage",
+"pingAssetPath":"Assets/PlayMaker Custom Actions/TMP 2022/setTextmeshProText.cs",
+"keywords":"tmp text mesh pro ui gui"
+}

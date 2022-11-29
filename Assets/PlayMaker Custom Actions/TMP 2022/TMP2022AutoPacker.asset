@@ -1,0 +1,143 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1ec061b5ce3f6849bc6ee6497489ccb, type: 3}
+  m_Name: TMP2022AutoPacker
+  m_EditorClassIdentifier: 
+  includeFolders:
+  - acfa54395e90062438462a890f106bf5
+  excludeFolders: []
+  includeFiles: []
+  excludeFiles:
+  - 6dd584395fafe5d43be42ab8f760e916
+  youTubeLists: []
+  webLinkList: []
+  modulesList: []
+  ecoFilterList: []
+  foldersToInclude: []
+  filesToInclude: []
+  foldersToExclude: []
+  filesToExclude: []
+  author: Eric Vander Wal
+  type: Custom actions
+  version: 1.0
+  keyWords: tmp text mesh pro ui gui
+  packageName: TextMeshPro2022
+  targetDirectory: C:/Users/Stephen/Documents/GitHub/PlayMakerCustomActions_U2019/PlayMaker/Ecosystem/Custom
+    Packages/Text Mesh Pro
+  targetRepository: 8
+  categoryString: Text Mesh Pro
+  targetPackageTextFile: C:/Users/Stephen/Documents/GitHub/PlayMakerCustomActions_U2019/PlayMaker/Ecosystem/Custom
+    Packages/Text Mesh Pro/TextMeshPro2022.package.txt
+  packagetypeselection:
+  - ActionPackage
+  - SamplePackage
+  - TemplatePackage
+  packagetypeselected: 0
+  UminVselection:
+  - ActionPackage
+  - SamplePackage
+  - TemplatePackage
+  UminVselected: 0
+  PMminVselection:
+  - ActionPackage
+  - SamplePackage
+  - TemplatePackage
+  PMminVselected: 0
+  Pingtype:
+  - None
+  - Asset Path
+  - Menu
+  Pingtypeselected: 1
+  uMinVersionSelected: 0
+  pmMinVersionSelected: 0
+  categoryList:
+  - API
+  - Analytics
+  - AnimateVariables
+  - Animation
+  - Android
+  - Animator
+  - Application
+  - Array
+  - AssetBundle
+  - Audio
+  - AudioMixer
+  - BlendShapes
+  - Camera
+  - Color
+  - Convert
+  - CrossPlatformInput
+  - Debug
+  - Device
+  - Editor
+  - Effects
+  - Encryption
+  - Files
+  - FOV
+  - GarbageCollection
+  - GameObject
+  - GUI
+  - GuiElement
+  - GUILayout
+  - Input
+  - JSON
+  - Level
+  - Lights
+  - Logic
+  - Material
+  - Math
+  - Mesh
+  - Microphone
+  - MobileGameController
+  - Movement
+  - NavMeshAgent
+  - NoiseModule
+  - Particles
+  - Physics
+  - Physics2D
+  - PlayerPrefs
+  - QualitySettings
+  - Quaternion
+  - Rect
+  - RectTransform
+  - RenderSettings
+  - Renderer
+  - Resources
+  - Screen
+  - ScriptControl
+  - ShapeModule
+  - Social
+  - Sprite
+  - StateMachine
+  - String
+  - Texture
+  - Time
+  - Transform
+  - Trigonometry
+  - UnityAds
+  - UnityObject
+  - Vector2
+  - Vector3
+  - VideoClip
+  - VideoPlayer
+  - VR
+  - Web
+  - WebCam
+  - uGui
+  categorySelected: 0
+  assetPath: {fileID: 11500000, guid: ca6df219f398dc34397fd5be83353d3a, type: 3}
+  pingMenu: {fileID: 0}
+  fileExistsCheck: 1
+  expandedList: 0
+  showList: 1
+  showSetFoldersAndFiles: 1
+  foldout: 1

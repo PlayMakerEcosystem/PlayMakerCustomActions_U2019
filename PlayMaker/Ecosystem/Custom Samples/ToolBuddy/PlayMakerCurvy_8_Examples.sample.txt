@@ -1,0 +1,11 @@
+{
+"__ECO__":"__SAMPLE__",
+"Author":"Jean Fabre/AKA",
+"Type":"Samples",
+"Version":"8.0",
+"UnityMinimumVersion":"2019.4",
+"PlayMakerMinimumVersion":"1.9",
+"unitypackage":"/PlayMaker/Ecosystem/Custom Samples/ToolBuddy/PlayMakerCurvy_8_Examples.unitypackage",
+"pingAssetPath":"Assets/PlayMaker Curvy Examples/Scenes/PM30_CurvyAlignToSpline.unity",
+"keywords":""
+}

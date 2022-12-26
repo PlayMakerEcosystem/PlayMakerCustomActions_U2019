@@ -1,0 +1,11 @@
+{
+"__ECO__":"__PACKAGE__",
+"Author":"Jean Fabre/Aka",
+"Type":"Package",
+"Version":"8.0",
+"UnityMinimumVersion":"2019.4",
+"PlayMakerMinimumVersion":"1.9",
+"unitypackage":"/PlayMaker/Ecosystem/Custom Packages/ToolBuddy/PlayMakerCurvy_8.unitypackage",
+"pingAssetPath":"Assets/PlayMaker Curvy/History.txt",
+"keywords":"curvy curve path spline bezier"
+}

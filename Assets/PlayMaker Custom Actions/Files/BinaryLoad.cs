@@ -2,7 +2,7 @@
 // License: Attribution 4.0 International(CC BY 4.0)
 // Author: Romi Fauzi
 /*--- __ECO__ __PLAYMAKER__ __ACTION__ ---*/
-// Keywords: Load Save Binary Disk
+// Keywords: Load Save Binary Disk load save binary disk
 
 using UnityEngine;
 using System.Runtime.Serialization.Formatters.Binary;
@@ -64,27 +64,22 @@ namespace HutongGames.PlayMaker.Actions
 
                 if (loadData.savedFloat.Length > 0)
                 {
-                    for (int i = 0; i < floatVar.Length; i++)
-                        floatVar[i].Value = loadData.savedFloat[i].Value;
+                    floatVar = loadData.savedFloat;
                 }
 
                 if (loadData.savedInt.Length > 0)
                 {
-                    for (int i = 0; i < intVar.Length; i++)
-                        intVar[i].Value = loadData.savedInt[i].Value;
+                    intVar = loadData.savedInt;
                 }
-
 
                 if (loadData.savedString.Length > 0)
                 {
-                    for (int i = 0; i < stringVar.Length; i++)
-                        stringVar[i].Value = loadData.savedString[i].Value;
+                    stringVar = loadData.savedString;
                 }
 
                 if (loadData.savedBool.Length > 0)
                 {
-                    for (int i = 0; i < stringVar.Length; i++)
-                        boolVar[i].Value = loadData.savedBool[i].Value;
+                    boolVar = loadData.savedBool;
                 }
 
                 if (loadData.savedArray.Length > 0)

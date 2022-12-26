@@ -1,0 +1,10 @@
+{
+"__ECO__":"__SAMPLE__",
+"Author":"Stephen Scott Day",
+"Type":"Simple System",
+"Version":"1.0",
+"UnityMinimumVersion":"2019.4",
+"PlayMakerMinimumVersion":"1.9",
+"unitypackage":"/PlayMaker/Ecosystem/Custom Samples/Simple Systems/Simple Inventory.unitypackage",
+"keywords":"simple inventory system item items template"
+}
